@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./fonts/racama.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Дизайт интерьера</title>
+</head>
+<body>
+    <div class="wrapper">
+
+        
+
+        <header class="header">
+            <div class="container header__inner">
+                <a href="./index.html">
+                    <img src="./images/icon/logo-var1.svg" alt="">
+                </a>
+                <nav class="menu">
+                    <ul> 
+                        <li>
+                            <a href="#about">Обо мне</a>
+                        </li>
+                        <li>
+                            <a href="#">Портфолио</a>
+                        </li>
+                        <li>
+                            <a href="#">Этапы работы</a>
+                        </li>
+                        <li>
+                            <a href="#">Услуги</a>
+                        </li>
+                        <li>
+                            <a href="#">контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="navigation">
+                    <input type="checkbox" class="navigation__toggle" id="navin-toggle">
+                    <label for="navin-toggle" class="navigation__button">
+                        <span class="navigation__icon"></span>
+                    </label>
+                    <div class="navigation__background"></div>
+                    <nav class="navigation__nav">
+                        <ul>
+                            <li><a href="#about">Обо мне</a></li>
+                            <li><a href="#">Портфолио</a></li>
+                            <li><a href="#">Этапы работы</a></li>
+                            <li><a href="#">Услуги</a></li>
+                            <li><a href="#">контакты</a></li>
+                        </ul>
+                        <div class="navigation__social-block">
+                            <a href="">
+                                <img src="./images/icon/telegram-icon.svg" alt="">
+                            </a>
+                            <a href="">
+                                <img src="./images/icon/whatsapp-icon.svg" alt="">
+                            </a>
+                            <a href="">
+                                <img src="./images/icon/vk-icon.svg" alt="">
+                            </a>
+                            <a href="">
+                                <img src="./images/icon/photoaparat-icon.svg" alt="">
+                            </a>
+                            <a href="">
+                                <img src="./images/icon/pinterest-icon.svg" alt="">
+                            </a>
+                        </div>
+                        <a href="tel:+70000000000">Телефон: +7 (000) 000 00 00</a>
+                    </nav>
+                    
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <section class="top">
+                <div class="container top__inner">
+                    <div class="top__head-title">
+                        <!-- <h2 class="top__title">Дизайнинтерьера</h2> -->
+                        <span>Д</span><span>И</span><span>з</span><span>а</span><span>й</span><span>н</span>
+                        <span>и</span><span>н</span><span>т</span><span>е</span><span>р</span><span>ь</span><span>е</span><span>р</span><span>а</span>
+                    </div>
+                    <button class="button top__button  js-order">
+                        <p>Заказать проект</p>
+                    </button>
+                </div>
+            </section>
+
+            <section id="about" class="about">
+                <div class="container about__inner">
+                        <div class="about__inner-content">
+                            <h2 class="about__inner-content-title">Лариса Дудорова</h2>
+                            <p>Дизайнер интерьеров</p>
+                            <hr>
+                            <p>15 лет в области дизайна</p>
+                            <p>Каждый проект рождается от встречи с человеком</p>
+                            <p>
+                                Интерьер для меня — это индивидуальность заказчика, 
+                                продуманный функционал пространства и авторский дизайн.
+                            </p>
+                        </div>
+                        <img src="./images/about-photo.jpg" alt="">
+                </div>
+            </section>
+
+            <section class="advantages">
+                <div class="container">
+                    <div class="advantages__inner">
+                        <div class="advantages__card">
+                            <h3 class="advantages__card-title">
+                                Точное определение цены и сроков
+                            </h3>
+                            <p>
+                                Все детали работы оговариваются
+                                “на берегу”. Работаю с соблюдением тайминга и сметы.  
+                            </p>
+                            <span class="advantages__decor"></span>
+                        </div>
+                        <div class="advantages__card">
+                            <h3 class="advantages__card-title">
+                                Постоянно на связи с клиентами
+                            </h3>
+                            <p>
+                                Обратная связь по любым интересующим вопросам в работе.
+                            </p>
+                            <span class="advantages__decor"></span>
+                        </div>
+                        <div class="advantages__card">
+                            <h3 class="advantages__card-title">
+                                Согласование каждого этапа работ
+                            </h3>
+                            <p>
+                                Я заинтересована в получении результата, 
+                                поэтому вы будете в курсе каждого этапа работы.
+                            </p>
+                            <span class="advantages__decor"></span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="portfolio">
+                <div class="container">
+                    <h2 class="portfolio__title">
+                        Несколько последних работ
+                    </h2>
+                    <div class="portfolio__inner">
+                        <div class="portfolio__card js-orders">
+                            <div class="portfolio__card-content">
+                                <h4 class="portfolio__card-content-title">ЖК Парк Столиц</h4>
+                                <p>Год: <span>2023</span></p>
+                                <p>Локация: <span>г. Екатеринбург</span></p>
+                            </div>
+                            <img src="./images/portfolio-img.jpg" alt="">
+                        </div>
+                        <div class="portfolio__card js-orders">
+                            <div class="portfolio__card-content">
+                                <h4 class="portfolio__card-content-title">ЖК Парковый квартал</h4>
+                                <p>Год: <span>2022</span></p>
+                                <p>Локация: <span>г. Екатеринбург</span></p>
+                            </div>
+                            <img src="./images/portfolio-img2.jpg" alt="">
+                        </div>
+                        <div class="portfolio__card js-orders">
+                            <div class="portfolio__card-content">
+                                <h4 class="portfolio__card-content-title">ЖК Парк Столиц</h4>
+                                <p>Год: <span>2022</span></p>
+                                <p>Локация: <span>г. Екатеринбург</span></p>
+                            </div>
+                            <img src="./images/portfolio-img3.jpg" alt="">
+                        </div>
+                        <div class="portfolio__card js-orders">
+                            <div class="portfolio__card-content">
+                                <h4 class="portfolio__card-content-title">Дом в коттеджном поселке</h4>
+                                <p>Год: <span>2022</span></p>
+                                <p>Локация: <span>20 км от Екатеринбурга</span></p>
+                            </div>
+                            <img src="./images/portfolio-img4.jpg" alt="">
+                        </div>
+                        <div class="portfolio__card js-orders">
+                            <div class="portfolio__card-content">
+                                <h4 class="portfolio__card-content-title">Дом в коттеджном поселке <br> “Заповедник”</h4>
+                                <p>Год: <span>2022</span></p>
+                                <p>Локация: <span>23 км от Екатеринбурга</span></p>
+                            </div>
+                            <img src="./images/portfolio-img5.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="stages">
+                <div class="container stages__in">
+                    <h2 class="stages__title">
+                        Этапы работы над проектом
+                    </h2>
+                    <div class="stages__inner">
+                        <div class="stages__inner-box">
+                            <h3 class="stages__inner-box-title">
+                                Первый этап:
+                            </h3>
+                            <ul>
+                                <li>Подписание договора.</li>
+                                <li>Обмер помещения.</li>
+                                <li>Планировочные решения. Доработка. Утверждение.</li>
+                            </ul>
+                            <p>Срок работы над этапом 10-15 раб. дней.</p>
+                            <span class="stages__inner-span">1</span>
+                        </div>
+                        <div class="stages__inner-box">
+                            <h3 class="stages__inner-box-title">
+                                Второй этап:
+                            </h3>
+                            <ul>
+                                <li>Работа по созданию интерьера.</li>
+                                <li>Подбор примеров изображений различных интерьеров.</li>
+                                <li>Эскизы интерьера, минимум 3-4 ракурса на каждое помещение.</li>
+                                <li>Коллажи с подбором отделочных материалов и мебели по цвету и стилю. (без привязки к конкретному производителю или бюджету).</li>
+                                <li>Выезды в салоны города.</li>
+                            </ul>
+                            <p>Срок работы над этапом 20-30 раб. дней.</p>
+                            <span class="stages__inner-span">2</span>
+                        </div>
+                        <div class="stages__inner-box">
+                            <h3 class="stages__inner-box-title">
+                                Третий этап:
+                            </h3>
+                            <span class="stages__inner-box-subtitle">
+                                Альбом чертежей:
+                            </span>
+                            <ul>
+                                <li>Обмерный план с размерами, </li>
+                                <li>План демонтажа перегородок, </li>
+                                <li>План возводимых перегородок, </li>
+                                <li>План с расстановкой мебели, </li>
+                                <li>План с расстановкой мебели с размерами, </li>
+                                <li>План с расстановкой розеток, ведомость,  </li>
+                                <li>План с расстановкой светильников, ведомость,  </li>
+                                <li>План потолка с указанием отдельных узлов и сечений,  </li>
+                                <li>План пола с указанием типа напольных покрытий и площадей,  </li>
+                                <li>Отделочный план, развертки стен с указанием отделочных материалов и площадей,</li>
+                                <li>План с расстановкой сантехнического оборудования, </li>
+                                <li>План пола с подогревом. </li>
+                            </ul>
+                            <p>Срок работы над этапом 20-30 раб. дней.</p>
+                            <span class="stages__inner-span">3</span>
+                        </div>
+                    </div>
+                    <p>interior design</p>
+                </div>
+            </section>
+
+            <sectio class="time">
+                <div class="time__wrap">
+                    <div class="container time__inner">
+                        <h3 class="time__title">Стандартный срок разработки:</h3>
+                        <div class="time__text">
+                            <p>от 45 рабочих дней * </p>
+                            <p>от 1600 руб. м2 (в зависимости от сложности и площади объекта)</p>
+                        </div>
+                        <p>*Мы не разрабатываем дизайн-проект параллельно стройке</p>
+                        <button class="button time__button button_o js-order">
+                            <p>Заказать проект</p>
+                        </button>
+                    </div>
+                </div>
+            </sectio>
+
+            <section class="question">
+                <div class="container qestion__inner">
+                    <h2 class="question__title section-title">
+                        Дополнительно
+                    </h2>
+                    <div class="question__conten data-one-spoller">
+                        <div id="accordion" class="accordion">
+                            <div class="accordion__item">
+                                <div class="accordion__header">
+                                    3D визуализация
+                                    <div class="accordeon__header-btn"> 
+                                        <span> </span>
+                                        <span></span>
+                                    </div>
+                                </div>
+                                <div class="accordion__body">
+                                    <div class="accordion__content">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati consequuntur autem, mollitia rem aperiam
+                                        fugit eos officia vel quidem quis officiis dolores porro beatae veritatis tenetur. Culpa ex libero a!
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion__item">
+                                <div class="accordion__header">
+                                    Авторский надзор
+                                    <div class="accordeon__header-btn"> 
+                                        <span> </span>
+                                        <span></span>
+                                    </div>
+                                </div>
+                                <div class="accordion__body">
+                                    <div class="accordion__content">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea dignissimos a autem perspiciatis sit eum
+                                    exercitationem expedita omnis ipsam voluptate veritatis dolores similique eligendi, earum quasi officia in
+                                    facilis dolorum!
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion__item">
+                                <div class="accordion__header">
+                                    Комплектация
+                                    <div class="accordeon__header-btn"> 
+                                        <span> </span>
+                                        <span></span>
+                                    </div>
+                                </div>
+                                <div class="accordion__body">
+                                    <div class="accordion__content">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta pariatur dolore consectetur perferendis libero
+                                        nam sit magni voluptatibus voluptates autem nesciunt, praesentium quidem deserunt ipsa totam esse ullam? Quod,
+                                        maiores!<br><br>
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta pariatur dolore consectetur perferendis libero
+                                        nam sit magni voluptatibus voluptates autem nesciunt, praesentium quidem deserunt ipsa totam esse ullam? Quod,
+                                        maiores!<br><br>
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta pariatur dolore consectetur perferendis libero
+                                        nam sit magni voluptatibus voluptates autem nesciunt, praesentium quidem deserunt ipsa totam esse ullam? Quod,
+                                        maiores!
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion__item">
+                                <div class="accordion__header">
+                                    Выезд дизайнера
+                                    <div class="accordeon__header-btn"> 
+                                        <span> </span>
+                                        <span></span>
+                                    </div>
+                                </div>
+                                <div class="accordion__body">
+                                    <div class="accordion__content">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta pariatur dolore consectetur perferendis libero
+                                        nam sit magni voluptatibus voluptates autem nesciunt, praesentium quidem deserunt ipsa totam esse ullam? Quod,
+                                        maiores!<br><br>
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta pariatur dolore consectetur perferendis libero
+                                        nam sit magni voluptatibus voluptates autem nesciunt, praesentium quidem deserunt ipsa totam esse ullam? Quod,
+                                        maiores!<br><br>
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta pariatur dolore consectetur perferendis libero
+                                        nam sit magni voluptatibus voluptates autem nesciunt, praesentium quidem deserunt ipsa totam esse ullam? Quod,
+                                        maiores!
+                                    </div>
+                                </div>
+                            </div>
+            
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+        </main>
+
+        <footer class="footer">
+            <div class="container footer__inner">
+                <h2 class="footer__title">Давайте обсудим ваш проект</h2>
+                <form class="footer__form">
+                    <div class="footer__form-box">
+                        <div class="footer__form-box-in">
+                            <input class="footer__form-box-input" type="text" name="name" id="name" placeholder="Ваше имя">
+                            <input class="footer__form-box-input" type="tel"  name="phone" id="phone" placeholder="Ваш телефон">
+                        </div>
+                        <input class="footer__form-box-submit" type="submit">
+                    </div>
+                    <p>
+                        Отправляя форму, вы соглашаетесь с
+                        <a href="#">политикой конфиденциальности.</a>
+                    </p>
+                </form>
+                <div class="footer__social-block">
+                    <a href="#">
+                        <img src="./images/icon/telegram-icon.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="./images/icon/whatsapp-icon.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="./images/icon/vk-icon.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="./images/icon/photoaparat-icon.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="./images/icon/pinterest-icon.svg" alt="">
+                    </a>
+                </div>
+                <div class="footer__content">
+                    <a href="./index.html">
+                        <img src="./images/icon/logo-var2.svg" alt="">
+                    </a>
+                    <p>г. Екатеринбург</p>
+                    <a href="#">Телефон: +7 (000) 000 00 00</a>
+                    <a href="#">E-mail: 0000000@mail.ru</a>
+                </div>
+                <div class="footer__copyrig">
+                    <p>© 2023. Все права защищены</p>
+                    <a href="#">Политика конфиденциальности</a>
+                </div>
+                <button class="button footer__buttom button_o js-order">
+                    <p>Заказать проект</p>
+                </button>
+            </div>
+
+        </footer>
+
+        <div class="modal">
+            <div class="modal__main">
+                <div class="modal__wrapper">
+                    <div class="modal__content">
+                        <h2 class="modal__title">
+                            Давайте обсудим ваш проект
+                        </h2>
+                        <form class="modal__form">
+                            <input type="text" class="modal__input" name="name" id="name" placeholder="Ваше имя">
+                            <input type="tel" class="modal__input" name="phone" id="phone" placeholder="Ваш телефон">
+                            <input type="submit" class="modal__submit">
+                            <span class="modal__form-text">
+                                Отправляя форму, вы соглашаетесь с
+                                <a href="#">политикой конфиденциальности.</a>
+                            </span>
+                        </form>
+                    </div>
+                </div>
+                <button class=" modal__close" style="background-image: url('./images/icon/klos-cross-icon.svg');">
+                </button>
+            </div>
+        </div>
+
+        <div class="modals">
+            <div class="modals__main">
+                <div class="modals__wrapper">
+                    <div class="swiper mySwiper2">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="./images/modal-port-img.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/modal-port-img2.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/modal-port-img3.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/modal-port-img4.jpg" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="./images/modal-port-img.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/modal-port-img2.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/modal-port-img3.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/modal-port-img4.jpg" />
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+                <button class="modals__close" style="background-image: url('./images/icon/klos-cross-icon.svg');">
+                </button>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./js/inputmask.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

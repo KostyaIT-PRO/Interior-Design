@@ -1,0 +1,20 @@
+.header{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    padding: 30px 50px;
+    z-index: 5;
+    background-color: #fff;
+    &__inner{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media  (max-width: 1024px){
+    .header{
+        padding: 30px 10px;
+    }
+}

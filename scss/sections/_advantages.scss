@@ -1,0 +1,104 @@
+.advantages{
+    margin-bottom: 160px;
+    &__inner{
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid rgba(36, 36, 36, 0.20);
+        gap: 30px;
+    }
+    &__card{
+        position: relative;
+        width: 380px;
+        padding-top: 59px;
+        &>p{
+            font-size: 20px;
+            font-weight: 300;
+        }
+    }
+    &__card:nth-child(3) h3{
+        max-width: 300px;
+    }
+    &__card-title{
+        font-family: 'Racama', sans-serif;
+        font-weight: 400;
+        font-size: 26px;
+        max-width: 284px;
+        margin-bottom: 30px;
+    }
+    &__decor{
+        width: 18px;
+        height: 18px;
+        position: absolute;
+        background: $color-black;
+        border-radius: 100%;
+        top: -9px;
+    }
+}
+
+@media  (max-width: 1530px){
+    .advantages{
+        margin-bottom: 100px;
+        padding: 0 15px;
+        
+    }
+    
+}
+
+@media  (max-width: 1024px){
+    .advantages{
+        margin-bottom: 50px;
+        &__inner{
+            gap: 15px;
+        }
+        &__card{
+            padding-top: 40px;
+            &>p{
+                font-size: 18px;
+            }
+        }
+        &__card-title{
+            font-size: 23px;
+        }
+    }
+    
+}
+
+@media  (max-width: 900px){
+    .advantages{
+        &__inner{
+            gap: 10px;
+        }
+        &__card{
+            padding-top: 30px;
+            min-width: 260px;
+            &>p{
+                font-size: 15px;
+            }
+        }
+        &__card-title{
+            font-size: 20px;
+        }
+    }
+    
+}
+@media  (max-width: 840px){
+    .advantages{
+        &__inner{
+            gap: 40px;
+            flex-wrap: wrap;
+            border: 0;
+            justify-content: center;
+        }
+        &__card{
+            padding-top: 30px;
+            min-width: 260px;
+            border-top: 1px solid rgba(36, 36, 36, 0.20);
+        }
+        &__card-title{
+            font-size: 20px;
+        }
+    }
+    
+}
+
+

@@ -1,0 +1,7 @@
+@font-face {
+	font-family: 'Racama';
+	src: url('./Racama-Regular.woff2') format('woff2') url('./Racama-Regular.woff') format('woff');
+	src: url('./ofont.ru_Racama.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}

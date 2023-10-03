@@ -1,0 +1,29 @@
+@import "abstracts/variable.scss";
+@import "abstracts/fonts.scss";
+
+
+@import "base/base.scss";
+
+
+@import "components/_menu.scss";
+@import "components/_modal.scss";
+@import "components/_modals.scss";
+@import "components/_navigation.scss";
+
+
+
+@import "layout/header.scss";
+@import "layout/footer.scss";
+
+
+@import "pages/home.scss";
+
+@import "sections/_top.scss";
+@import "sections/_about.scss";
+@import "sections/_additionally.scss";
+@import "sections/_portfolio.scss";
+@import "sections/_advantages.scss";
+@import "sections/_stages.scss";
+@import "sections/_time.scss";
+@import "sections/_question.scss";
+

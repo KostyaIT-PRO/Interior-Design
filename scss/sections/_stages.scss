@@ -1,0 +1,235 @@
+.stages{
+    padding: 160px 0 100px;
+    background: $color-black;
+    &__title{
+        color: $text-color-white;
+        margin-bottom: 105px;
+        font-family: 'Racama', sans-serif;
+        font-weight: 400;
+        font-size: 46px;
+    }
+    &__inner{
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        border-top: 1px solid $border-top;
+        margin-bottom: 25px;
+        
+    }
+    &__inner-box{
+        padding-top: 65px;
+        width: 480px;
+        position: relative;
+        &>ul{
+            margin-bottom: 20px;
+            padding-left: 20px;
+            &>li{
+                color: $text-color-white80;
+                font-size: 18px;
+                font-weight: 300;
+                line-height: 130%;
+            }
+        }
+        &>p{
+            color: $text-color-white80;
+            font-size: 18px;
+        }
+    }
+    &__inner-box-title{
+        margin-bottom: 20px;
+        color: $text-color-white;
+        font-family: 'Racama' ,sans-serif;
+        font-weight: 400;
+        font-size: 26px;
+    }
+    &__inner-box-subtitle{
+        color: $text-color-white80;
+        font-size: 18px;
+        margin-bottom: 20px;
+        display: inline-block;
+    }
+    
+
+    &__inner-span{
+        width: 50px;
+        height: 50px;
+        background-color: $color-white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 100%;
+        position: absolute;
+        top: -25px;
+        left: -10px;
+        color: $text-color-black;
+        font-family: 'Racama', sans-serif;
+        font-weight: 400;
+        font-size: 26px;
+    }
+
+    &__in{
+        width: 100%;
+        &>p{
+            color: rgba(255, 255, 255, 0.05);
+            font-family: 'Racama', sans-serif;
+            font-size: 158px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-transform: uppercase;
+            text-align: center;
+        }
+    }
+
+    
+
+    
+}
+
+
+@media (max-width: 1530px){
+    .stages{
+        padding: 100px 20px;
+        &__in{
+            &>p{
+                font-size: 140px;
+            }
+        }
+    }
+}
+
+@media  (max-width: 1440px){
+    .stages{
+        &__inner{
+            gap: 30px;
+        }
+        &__in{
+            &>p{
+                font-size: 130px;
+            }
+        }
+    }
+
+}
+
+@media  (max-width: 1340px){
+    .stages{
+        &__in{
+            &>p{
+                font-size: 120px;
+            }
+        }
+        &__inner{
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@media  (max-width: 1190px){
+    .stages{
+        &__in{
+            &>p{
+                font-size: 105px;
+            }
+        }
+    }
+}
+
+@media  (max-width: 1050px){
+    .stages{
+        padding: 50px 15px;
+        &__inner{
+            flex-wrap: wrap;
+            border: 0;
+            justify-content: center;
+            gap: 70px 50px;
+            padding-top: 40px;
+        }
+        &__title{
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        &__inner-box{
+            border-top: 1px solid $border-top;
+        }
+        &__in{
+            &>p{
+                font-size: 80px;
+            }
+        }
+    }
+}
+
+@media  (max-width: 800px){
+    .stages{
+        &__title{
+            font-size: 35px;
+        }
+        &__inner-span{
+            width: 40px;
+            height: 40px;
+            top: -20px;
+            font-size: 22px;
+        }
+        &__inner-box{
+            padding-top: 50px;
+        }
+        &__inner-box-title{
+            font-size: 22px;
+        }
+        &__in{
+            &>p{
+                font-size: 63px;
+            }
+        }
+    }
+}
+
+@media  (max-width: 650px){
+    .stages{
+        &__title{
+            font-size: 30px;
+        }
+        &__inner-span{
+            width: 40px;
+            height: 40px;
+            top: -20px;
+            font-size: 22px;
+        }
+        &__inner-box{
+            padding-top: 50px;
+        }
+        &__inner-box-title{
+            font-size: 20px;
+        }
+        &__in{
+            &>p{
+                font-size: 57px;
+            }
+        }
+    }
+}
+
+@media  (max-width: 425px){
+    .stages{
+        &__title{
+            font-size: 25px;
+        }
+        &__inner-box{
+            min-width: 250px;
+        }
+        &__inner-span{
+            font-size: 20px;
+            width: 30px;
+            height: 30px;
+            top: -15px;
+        }
+        &__inner-box-title{
+            font-size: 20px;
+        }
+    }
+}
+
+
+
+

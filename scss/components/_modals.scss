@@ -1,0 +1,231 @@
+.modals{
+    display: none;
+    position: fixed;
+    z-index: 50;
+    inset: 0;
+    background-color: $modal-fon-black70;
+    cursor: pointer;
+    overflow-y: auto;
+    &__main{
+        position: relative;
+        margin: auto;
+        max-width: 944px;
+        background-color: $color-white;
+        width: 100%;
+        cursor: default;
+        overflow: hidden;
+    }
+
+    &__wrapper{
+        padding: 50px 70px;
+    }
+    &__content{
+        max-width: 705px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    &__close{
+        width: 45px;
+        height: 45px;
+        position: absolute;
+        padding: 0;
+        top: 15px;
+        right: 15px;
+        line-height: 0;
+        border: 0;
+        background-color: transparent;
+        background-position: center;
+        background-repeat: no-repeat;
+        cursor: pointer;
+        text-align: center;
+    }
+
+}
+
+.swiper-button-prev,
+.swiper-button-next{
+    width: 50px;
+    height: 50px;
+    background-image: url('../images/icon/arow-slider.svg');
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.swiper-button-prev{
+    left: 0;
+}
+
+.swiper-button-next{
+    transform: rotate(180deg);
+    right: 0;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after{
+    display: none;
+}
+
+
+
+.swiper-slide {
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    border-radius: 20px;
+}
+
+
+.swiper {
+    width: 804px;
+    height: 100%;
+}
+
+.swiper-wrapper{
+    position: relative;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: $color-white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    max-width: 804px;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.swiper {
+    max-width: 804px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.swiper-slide {
+    background-size: cover;
+    background-position: center;
+}
+
+.mySwiper2 {
+    height: 80%;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 28px;
+}
+
+.mySwiper2 img {
+    height: 80%;
+    width: 100%;
+}
+
+.mySwiper {
+    max-width: 804px;
+    max-height: 142px;
+    box-sizing: border-box;
+    padding: 0 50px;
+}
+
+.mySwiper .swiper-slide {
+    max-width: 804px;
+    height: 100%;
+    opacity: 0.6;
+}
+
+.mySwiper .swiper-slide-thumb-active {
+    opacity: 1;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-slide .swiper-slide-visible .swiper-slide-active .swiper-slide-thumb-active{
+    max-width: 223px;
+}
+
+
+@media  (max-width: 1024px){
+    .modals{
+        &__main{
+            width: 95%;
+        }
+        &__wrapper{
+            padding: 50px;
+        }
+        &__close{
+            width: 35px;
+            height: 35px;
+            top: 15px;
+            right: 15px;
+        }
+    }
+    .swiper {
+        width: 95%;
+        height: 100%;
+    }
+}
+
+@media  (max-width: 800px){
+    .modals{
+        &__main{
+            width: 95%;
+        }
+        &__wrapper{
+            padding:50px 30px;
+        }
+        &__close{
+            width: 25px;
+            height: 25px;
+            top: 15px;
+            right: 15px;
+        }
+    }
+    .swiper {
+        width: 95%;
+        height: 100%;
+    }
+}
+
+@media  (max-width: 650px){
+    .modals{
+        &__main{
+            width: 95%;
+        }
+        &__wrapper{
+            padding: 30px 15px;
+        }
+        &__close{
+            width: 15px;
+            height: 15px;
+            top: 10px;
+            right: 10px;
+        }
+
+    }
+    .swiper {
+        width: 100%;
+        height: 100%;
+    }
+    .mySwiper2 {
+        margin-bottom: 15px;
+    }
+
+}

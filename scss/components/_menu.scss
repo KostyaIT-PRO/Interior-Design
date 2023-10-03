@@ -1,0 +1,31 @@
+.menu{
+    &>ul{
+        display: flex;
+        gap: 70px;
+    }
+    &>ul li{
+        text-transform: uppercase;
+    }
+    &>ul a{
+        color: $text-color-black;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1440px){
+    .menu{
+        &>ul{
+            gap: 50px;
+        }
+    }
+}
+
+@media (max-width: 1024px){
+    .menu{
+        display: none;
+    }
+}
+
+@media (max-width: 768px){
+    
+}
